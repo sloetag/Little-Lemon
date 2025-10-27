@@ -1,1 +1,1 @@
-# My capstone project for the Meta Front-End Developer Professional Certificate
+Capstone | Meta Front-End Developer Professional Certificate
