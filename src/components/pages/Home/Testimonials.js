@@ -10,29 +10,26 @@ const customers = [
     fullName: 'Maria Sanchez',
     image: customer1Image,
     rating: [1, 1, 1, 1, 0.5],
-    says: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-      eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+    says: `Exceptional food, impeccable service, and a cozy atmosphere—perfect for any occasion. Highly recommend!.`,
   },
   {
     fullName: 'Antony Clifton',
     image: customer2Image,
     rating: [1, 1, 1, 1, 1],
-    says: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-      eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+    says: `Fresh ingredients, creative dishes, and friendly staff made our dinner unforgettable. Will return soon!`
+
   },
   {
     fullName: 'Tamika Jackson',
     image: customer3Image,
     rating: [1, 1, 1, 1, 0.5],
-    says: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-      eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+    says: `Outstanding flavors, generous portions, and a warm ambiance—this gem exceeded all expectations. `
   },
   {
     fullName: 'Brandon Ming',
     image: customer4Image,
     rating: [1, 1, 1, 1],
-    says: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-      eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+    says: `Every bite was delicious, the ambiance was inviting, and the staff went above and beyond.`
   },
 ];
 
@@ -41,7 +38,7 @@ const Testimonials = () => {
     <section className="testimonials">
       <div className="container grid">
         <h2>What people say about us!</h2>
-        {customers.map((customer, index) => 
+        {customers.map((customer, index) =>   
           <TestimonialCard key={index} customer={customer} />
         )}
      </div>

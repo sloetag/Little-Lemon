@@ -9,19 +9,9 @@ const OurStory = () => {
         <h1>Little Lemon</h1>
         <h2>Chicago</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-          nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
-          culpa qui officia deserunt mollit anim id est laborum. Sed ut 
-          perspiciatis unde omnis iste natus error sit voluptatem accusantium 
-          doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo 
-          inventore veritatis et quasi architecto beatae vitae dicta sunt 
-          explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut 
-          odit aut fugit, sed quia consequuntur magni dolores eos qui ratione 
-          voluptatem sequi nesciunt.
+          **Our Story**  
+
+Little Lemon began as a dream shared by two cousins, Mario and Adrian, who grew up cooking together in their grandmother’s sun-drenched kitchen on the Mediterranean coast. Inspired by her simple, vibrant recipes—bursting with lemon, olive oil, fresh herbs, and love—they brought those flavors to the city. What started as a tiny corner bistro has blossomed into a beloved neighborhood gem, where every dish honors tradition while embracing fresh, local ingredients. At Little Lemon, we don’t just serve food—we share memories, warmth, and the timeless joy of gathering around the table. Come taste the Mediterranean, made with heart.
         </p>
       </div>
       <div className="our-story-chefs">
